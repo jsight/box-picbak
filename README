@@ -1,0 +1,19 @@
+To use:
+
+1. Get the mavenized box4j api
+https://github.com/jsight/box-java-sdk
+
+2. Compile both with maven
+
+3. Get an API Key:
+http://www.box.com/developers/services/new_service_terms
+
+4. Place the key in src/main/resources/config.properties
+
+5. Run:
+java -jar picbak-1.0.0-SNAPSHOT.jar /localdir /remotedir
+
+This will walk through a login, and upload of the local folder to box.net. 
+
+Remote files that exactly match local files (based upon a SHA1 hash) will not be changed.
+
