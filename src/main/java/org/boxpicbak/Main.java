@@ -22,7 +22,6 @@ public class Main {
         mgr.connect();
         
         PicBakBoxNode folder = mgr.getDirectory(remoteDir, true);
-        System.out.println("Folder: " + folder);
         
         uploadDir(mgr, localDir, folder);
     }

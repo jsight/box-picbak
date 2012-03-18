@@ -3,4 +3,3 @@ target
 .project
 .settings
 src/main/resources/localconfig.properties
-
